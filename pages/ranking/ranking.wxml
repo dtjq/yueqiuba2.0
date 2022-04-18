@@ -1,0 +1,37 @@
+<view class="rak">
+  <!-- 头部 -->
+  <view class="rak_view01">
+    <image src="/images/ranking/ballbackground.png" class="rak_view01_src"></image>
+  </view>
+
+  <!-- 中部 -->
+  <view class="rak_view02">
+    1
+  </view>
+  <view class="rak_view02">
+    1
+  </view>
+  <view class="rak_view02">
+    1
+  </view>
+  <view class="rak_view02">
+    1
+  </view>
+  <view class="rak_view02">
+    1
+  </view>
+  <view class="rak_view02">
+    1
+  </view>
+  <view class="rak_view02">
+    1
+  </view>
+
+  <!-- 底部 -->
+  <view class="rak_view03">
+    <view class="rak_view03_view01">
+      2
+    </view>
+  </view>
+
+</view>

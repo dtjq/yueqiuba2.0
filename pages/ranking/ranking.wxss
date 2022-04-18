@@ -1,0 +1,38 @@
+/* 总页面 */
+page{
+  background-color: #F2F2F2;
+  height: 100%;
+}
+
+/* .idx-3{
+  background-color: #F2F2F2;
+  height: 100%;
+} */
+
+/* 顶部 */
+.rak_view01_src{
+  width: 100%;
+  height: 606rpx;
+}
+
+/* 中部 */
+.rak_view02{
+  width: 500rpx;
+  height: 86rpx;
+  background-color: #e6e6e6;
+  margin: auto;
+  border: solid 6rpx #fbfbfb;
+  border-radius: 12rpx;
+  margin-top: 12rpx;
+  position: relative;
+  top: -60rpx;
+}
+
+/* 底部 */
+.rak_view03{
+  background-color: #cccccc;
+  position:absolute;
+  bottom: 2rpx;
+  width: 100%;
+  height:120rpx;
+}

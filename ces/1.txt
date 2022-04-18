@@ -1,0 +1,27 @@
+
+  "subPackages": [
+    {
+      "root":"pages",
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "root":"pages",
+      "pages": [
+        "froum"
+      ]
+    },
+    {
+      "root":"pages",
+      "pages": [
+        "ranking"
+      ]
+    },
+    {
+      "root":"pages",
+      "pages": [
+        "personal"
+      ]
+    }
+  ],

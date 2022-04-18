@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/froum/froum",
+    "pages/personal/personal",
+    "pages/ranking/ranking",
+    "pages/logs/logs",
+    "pages/index/Stadiumsituation/Stadiumsituation",
+
+    "pages/index/shopping/index/index",
+    "pages/index/shopping/list/index",
+    "pages/index/shopping/cart/index",
+    "pages/index/shopping/user/index",
+    "pages/index/shopping/details/index",
+    "pages/index/shopping/bindPhone/index",
+    "pages/index/shopping/coupon/index",
+    "pages/index/shopping/order/index",
+    "pages/index/shopping/addressList/index",
+    "pages/index/shopping/addressAdd/index",
+    "pages/index/shopping/orderDetails/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#050E3D",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+},
+
+  "tabBar": {
+    "backgroundColor": "#050E3D",
+    "color": "#ffffff",
+    "selectedColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabber/首页@3x.png",
+        "selectedIconPath": "images/tabber/首页 (切换状态)@3x.png"
+      },
+      {
+        "pagePath": "pages/froum/froum",
+        "text": "社区",
+        "iconPath": "images/tabber/社区@3x.png",
+        "selectedIconPath": "images/tabber/社区 (切换状态)@3x.png"
+      },
+      {
+        "pagePath": "pages/ranking/ranking",
+        "text": "排名",
+        "iconPath": "images/tabber/排行@3x.png",
+        "selectedIconPath": "images/tabber/排行 (切换状态)@3x.png"
+
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "images/tabber/我的@3x.png",
+        "selectedIconPath": "images/tabber/我的 (切换状态)@3x.png"
+      }
+    ]
+  },
+
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<scroll-view class="container" scroll-y  bindscrolltolower="lower">
+ <swiper 
+    indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" 
+    interval="{{interval}}" 
+    duration="{{duration}}"
+    >
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src='{{baseUrl+item.img_url}}' style='width:100%;height:220px;' />
+        </swiper-item>
+      </block>
+  </swiper>
+  <view class='icon'>
+    <navigator hover-class="none" url="/pages/index/shopping/list/index?title=生日&id=5b8e37e34b640a63b33272dc">
+      <image src='/images/index/shopping/birthday.png' mode="aspectFit"></image>
+      <text>C 1</text>
+    </navigator>
+    <navigator hover-class="none" url="/pages/index/shopping/list/index?title=节日&id=5b8f45f2afb7c17788e11994">
+      <image src='/images/index/shopping/festival.png' mode="aspectFit"></image>
+      <text>C 2</text>
+    </navigator>
+    <navigator hover-class="none" url="/pages/index/shopping/list/index?title=婚礼&id=5b8f4603afb7c17788e11996">
+      <image src='/images/index/shopping/wedding.png' mode="aspectFit"></image>
+      <text>C 3</text>
+    </navigator>
+    <navigator hover-class="none" url="/pages/index/shopping/list/index?title=party&id=5b8f4612afb7c17788e11998">
+      <image src='/images/index/shopping/party.png' mode="aspectFit"></image>
+      <text>C 4</text>
+    </navigator>
+  </view>
+  <view class='list'>
+    <view class='item' wx:for="{{list}}">
+      <navigator hover-class="none" url="/pages/index/shopping/details/index?id={{item._id}}">
+        <image class='product' src='{{item.img}}'></image>
+        <text class='text'>{{item.title}}.</text>
+      </navigator>
+      <view class='price'>
+        <text>￥{{item.price}}</text>
+        <view  bindtap='addCart' data-item="{{item}}">
+        <image style='width:20px;height:20px;' src='/images/index/shopping/Shopping.png'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</scroll-view>
+<image src="/images/index/shopping/暂停 控件@3x.png" class="order" bindtap="order_img"></image>
+<view class="order-content"></view>

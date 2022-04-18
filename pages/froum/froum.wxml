@@ -1,0 +1,36 @@
+<!--pages/froum/froum.wxml-->
+<view class="top">
+    <swiper class="slidshow" indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#fff" indicator-dots circular autoplay>
+    <swiper-item wx:for="{{showimgs}}" wx:for-item="slidshow" wx:key="img_id">
+        <image src="{{slidshow.img}}"></image>
+    </swiper-item>
+    </swiper>
+</view>
+<view class="content">
+    <view wx:for="{{informations}}" class="content-view" wx:key="id"  wx:for-item="item">
+            <view class="view-left">
+                <view class="head-img">
+                    <image src="{{item.headimg}}"></image>
+                </view>
+            </view>
+            <view class="view-center">
+                <text class="name">{{item.username}}</text>
+                <text class="text">{{item.contenttext}}</text>
+                <view class="content-img">
+                    <view class="imgframe">
+                    <image src="{{item.contentimg1}}"></image>
+                    </view>
+                    <view class="imgframe">
+                    <image src="{{item.contentimg2}}"></image>
+                    </view>
+                    <view class="imgframe">
+                    <image src="{{item.contentimg3}}"></image>
+                    </view>
+                </view>
+                <text class="time-ago">{{item.timeago}}分钟前</text>
+            </view>     
+            <view class="view-right">
+                <view class="operate">...</view>
+            </view>
+    </view>
+</view>

@@ -1,0 +1,38 @@
+
+<view class="idx-2">
+  <!-- 头部 -->
+  <view class="idx-2_view_01">
+    <image src="/images/index/ballbackground.png" class="idx-2_view_01_src"></image>
+  </view>
+
+  
+  <view class="idx-2_view_02">
+    <!-- 导航栏 -->
+    <view class="idx-2_view02_view01">
+      <view class="idx-2_view02_view_left_01" bindtap="Stadiumsituation">
+      <image class="idx-2_view02_view_left_src" src="/images/index/referee.png"></image>
+      <text class="idx-2_view02_view_text">比赛预约</text>
+      </view>
+
+      <view class="idx-2_view02_view_middle_01">
+      <!-- <image class="idx-2_view02_view_middle_src" src="/images/index/球场动态图标.png"></image> -->
+      <text class="idx-2_view02_view_text">匹配</text>
+      </view>
+
+      <view class="idx-2_view02_view_right_01" bindtap="shopping">
+      <image class="idx-2_view02_view_right_src" src="/images/index/shopping.png"></image>
+      <text class="idx-2_view02_view_text">商城</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="idx-2_view03">
+    <text class="idx-2_view03_text" space="ensp">xxxx学院 </text>
+    <image src="/images/index/more.png" class="idx-2_view03_src"></image>
+
+    <!-- <text class="idx-2_view03_text1">xx月xx日</text>
+    <image src="/images/index/more.png" class="idx-2_view03_src1"></image> -->
+  </view>
+
+
+</view>

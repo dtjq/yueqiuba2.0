@@ -1,0 +1,35 @@
+<!-- 头部篮球 -->
+<view class="per_view01">
+    <image src="/images/personal/ballbackground.png" class="per_view01_src"></image>
+    <!-- 头部信息栏 -->
+    <view class="per_view02">
+      <!-- 表单信息 -->·
+      <view class="per_view02_view01">
+        <view class="per_view02_view01_view01">
+          <image src="/images/personal/ID.png" class="per_view02_view01_src"></image>
+          <open-data type="userNickName"  class="per_view02_view01_src_t"></open-data>  <!-- id -->
+          <image src="/images/personal/boy.png" class="per_view02_view01_src"></image>
+          <image src="/images/personal/girl.png" class="per_view02_view01_src"></image>
+        </view>
+
+        <view class="per_view02_view01_view01">
+          <image src="/images/personal/information.png" class="per_view02_view01_src"></image><text class="per_view02_view01_src_t">2</text>
+        </view>
+
+        <view class="per_view02_view01_view01">
+          <image src="/images/personal/sign.png" class="per_view02_view01_src"></image><text class="per_view02_view01_src_t">3</text>
+        </view>
+
+        <view class="per_view02_src021">
+          <open-data type="userAvatarUrl" class="per_view02_src01"></open-data>         <!--    头像 -->
+
+        </view>
+
+        <!-- <button wx:if="{{canIuse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button> -->
+
+        <!-- <open-data type="userAvatarUrl"></open-data> -->
+
+      </view>
+    </view>
+</view>
+
