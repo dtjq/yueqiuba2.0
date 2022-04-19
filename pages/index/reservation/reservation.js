@@ -1,4 +1,4 @@
-// pages/index/Stadiumsituation/Stadiumsituation.js
+// pages/index/reservation/reservation.js
 Page({
 
   /**

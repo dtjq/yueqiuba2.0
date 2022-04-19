@@ -9,7 +9,7 @@
   <view class="idx-2_view_02">
     <!-- 导航栏 -->
     <view class="idx-2_view02_view01">
-      <view class="idx-2_view02_view_left_01" bindtap="Stadiumsituation">
+      <view class="idx-2_view02_view_left_01" bindtap="reservation">
       <image class="idx-2_view02_view_left_src" src="/images/index/referee.png"></image>
       <text class="idx-2_view02_view_text">比赛预约</text>
       </view>

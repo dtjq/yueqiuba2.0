@@ -5,8 +5,7 @@
     "pages/personal/personal",
     "pages/ranking/ranking",
     "pages/logs/logs",
-    "pages/index/Stadiumsituation/Stadiumsituation",
-
+    "pages/index/reservation/reservation",
     "pages/index/shopping/index/index",
     "pages/index/shopping/list/index",
     "pages/index/shopping/cart/index",

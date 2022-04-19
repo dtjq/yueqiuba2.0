@@ -52,9 +52,9 @@ Page({
 
   },
 
-  Stadiumsituation:function(){
+  reservation:function(){
     wx.navigateTo({
-      url: '../index/Stadiumsituation/Stadiumsituation',
+      url: '../index/reservation/reservation',
     })
   },
 
