@@ -25,61 +25,66 @@ page{
 .idx-2_view02_view01{
   margin: auto;
   position: relative;
-  height: 128rpx;/*20*/
-  width: 700rpx;/*48*/
+  height: 130rpx;/*20*/
+  width: 710rpx;/*48*/
   top: 10rpx;
   background-color:white;
   border-radius: 24rpx 24rpx 24rpx 24rpx;
   text-align: center;
-
   display:flex;
-  justify-content: space-around;
+  /* justify-content: center; */
+
 }
 
 .idx-2_view02_view_left_01{
 
-  width: 100rpx;
-  height: 100rpx;
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 116rpx;
 
 }
 
 .idx-2_view02_view_left_src{
-
-  width: 100rpx;
-  height: 100rpx;
+  margin-top: 8rpx;
+  width: 80rpx;
+  height: 80rpx;
+  
 
 
 }
 
 .idx-2_view02_view_middle_01{
 
-  width: 100rpx;
-  height: 100rpx;
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 126rpx;
 
 }
 .idx-2_view02_view_middle_src{
-
-  width: 100rpx;
-  height: 100rpx;
+  margin-top: 8rpx;
+  width: 80rpx;
+  height: 80rpx;
 
 }
 
 .idx-2_view02_view_right_01{
 
-  width: 100rpx;
-  height: 100rpx;
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 126rpx;
 
 }
 
 .idx-2_view02_view_right_src{
 
-  width: 100rpx;
-  height: 100rpx;
+  margin-top: 8rpx;
+  width: 80rpx;
+  height: 80rpx;
 
 }
 
 .idx-2_view02_view_text{
-  font-size: 24rpx;
+  font-size: 20rpx;
   position: relative;
   bottom: 20rpx;
 }
@@ -88,20 +93,21 @@ page{
 
 .idx-2_view03{
   margin: auto;
-  height: 80rpx;
-  width: 700rpx;
+  height: 76rpx;
+  width: 710rpx;
   background-color: #050E3D;
   border-radius: 20rpx 20rpx 0 0;
   z-index: -1;
 }
 
 .idx-2_view03_text{
-  margin-top: 16rpx;
-  margin-left: 20rpx;
+  margin-top: 12rpx;
+  margin-left: 32rpx;
   float: left;
   color: white;
-  font-family:"微软雅黑";
+  font-family:"思源黑体";
   font-weight: 200;
+  font-size: 32rpx;
 }
 
 .idx-2_view03_text1{
@@ -126,4 +132,88 @@ page{
   top: 16rpx;
   width: 40rpx;
   height: 40rpx;
+}
+
+/* for对战列表 */
+.idx-2_view04{
+  margin: auto;
+  height: 284rpx;
+  width: 708rpx;
+  background-color: white;
+  box-shadow: 0rpx 2rpx 1prx;
+  display: flex;
+  margin-top: 6rpx;
+}
+
+.idx-2_view04_view01{
+  height: 240rpx;
+  width: 189rpx;
+  /* background-color: red; */
+  position: relative;
+  top: 20rpx;
+  left: 52rpx;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+}
+
+.idx-2_view04_view01_text01{
+
+  font-size: 24rpx;
+  align-self: center;
+}
+
+.idx-2_view04_view01_src1{
+
+  width: 122rpx;
+  height: 122rpx;
+  align-self: center;
+}
+
+/* 箭头 */
+.idx-2_view04_view02{
+  width: 240rpx;
+  height: 80rpx;
+  align-self: center;
+  position: relative;
+  left: 52rpx;
+  /* background-color: teal; */
+  text-align: center;
+  position: relative;
+  top: -40rpx;
+}
+.idx-2_view04_view01_src2{
+  width: 240rpx;
+  height: 14rpx;
+  position: relative;
+  top: -16rpx;
+}
+.idx-2_view04_view01_text02{
+  font-size: 24rpx;
+}
+
+/* 箭头右 */
+.idx-2_view04_view03{
+  height: 240rpx;
+  width: 189rpx;
+  /* background-color: red; */
+  position: relative;
+  top: 20rpx;
+  left: 52rpx;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+}
+
+.idx-2_view04_view03_text01{
+
+  font-size: 24rpx;
+  align-self: center;
+}
+
+.idx-2_view04_view03_src1{
+
+  width: 122rpx;
+  height: 122rpx;
+  align-self: center;
 }

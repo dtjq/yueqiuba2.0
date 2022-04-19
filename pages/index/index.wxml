@@ -15,7 +15,7 @@
       </view>
 
       <view class="idx-2_view02_view_middle_01">
-      <!-- <image class="idx-2_view02_view_middle_src" src="/images/index/球场动态图标.png"></image> -->
+      <image class="idx-2_view02_view_middle_src" src="/images/index/ball.png"></image>
       <text class="idx-2_view02_view_text">匹配</text>
       </view>
 
@@ -26,12 +26,38 @@
     </view>
   </view>
 
+
+  <!-- 学院信息 -->
   <view class="idx-2_view03">
-    <text class="idx-2_view03_text" space="ensp">xxxx学院 </text>
+    <text class="idx-2_view03_text" space="ensp">艺术设计学院 </text>
     <image src="/images/index/more.png" class="idx-2_view03_src"></image>
 
-    <!-- <text class="idx-2_view03_text1">xx月xx日</text>
-    <image src="/images/index/more.png" class="idx-2_view03_src1"></image> -->
+    <text class="idx-2_view03_text1">xx月xx日</text>
+    <image src="/images/index/more.png" class="idx-2_view03_src1"></image>
+  </view>
+
+  <!-- for对战列表 -->
+  <view wx:for="{{information}}" wx:key="*this" wx:for-item="information"  class="idx-2_view04">
+
+    <view class="idx-2_view04_view01">
+      <text class="idx-2_view04_view01_text01" >{{information.name}}</text>
+      <image src="/images/index/ellipse.png" class="idx-2_view04_view01_src1"></image>
+      <text class="idx-2_view04_view01_text01">{{information.class}}</text>
+      <text class="idx-2_view04_view01_text01">{{information.classname}}</text>
+    </view>  
+
+    <view class="idx-2_view04_view02">
+      <text class="idx-2_view04_view01_text02">{{information.time}}</text>
+      <image class="idx-2_view04_view01_src2" src="/images/index/arrow.png"></image>
+    </view>
+
+    <view class="idx-2_view04_view03">
+      <text class="idx-2_view04_view03_text01" >{{information.name2}}</text>
+      <image src="/images/index/ellipse.png" class="idx-2_view04_view01_src1"></image>
+      <text class="idx-2_view04_view03_text01">{{information.class2}}</text>
+      <text class="idx-2_view04_view03_text01">{{information.classname2}}</text>
+    </view>  
+
   </view>
 
 

@@ -7,6 +7,35 @@ Page({
    */
   data: {
 
+    information:[
+    {
+      // 队伍1
+      name:"xx队",
+      image:"",
+      class:"19级1班",
+      classname:"视觉传达设计",
+      time:"16:00",
+      // 队伍2
+      name2:"xx队",
+      image2:"",
+      class2:"19级2班",
+      classname2:"视觉传达设计",
+    },
+    {
+      // 队伍1
+      name:"xx队",
+      image:"",
+      class:"19级4班",
+      classname:"软件工程",
+      time:"20:00",
+      // 队伍2
+      name2:"xx队",
+      image2:"",
+      class2:"19级6班",
+      classname2:"视觉传达设计",
+    },
+
+    ]
   },
 
   /**
